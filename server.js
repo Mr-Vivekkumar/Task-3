@@ -1,5 +1,5 @@
-const http = require('http');
-const { addDays, addWeeks, subDays, format } = require('date-fns');
+import http from 'http';
+import { addDays, addWeeks, subDays, format } from 'date-fns';
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'application/json' });
